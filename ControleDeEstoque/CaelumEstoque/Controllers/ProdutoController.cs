@@ -21,14 +21,31 @@ namespace CaelumEstoque.Controllers
         public ActionResult Form()
         {
             ViewBag.Categorias = new CategoriasDAO().Lista();
+            ViewBag.Produto = new Produto();
             return View();
         }
 
         [HttpPost]
         public ActionResult Adiciona(Produto produto)
         {
-            new ProdutosDAO().Adiciona(produto);
-            return RedirectToAction("Index");
+            int informaticaId = 1;
+            if (produto.CategoriaId.Equals(informaticaId) && produto.Preco < 100)
+            {
+                ModelState.AddModelError("produto.PrecoMenorQueCem", "O preço para Informática deve ser no mínimo 100 reais");
+            }
+
+            if (ModelState.IsValid)
+            {
+                new ProdutosDAO().Adiciona(produto);
+                return RedirectToAction("Index");
+            }
+            else
+            {
+                ViewBag.Categorias = new CategoriasDAO().Lista();
+                ViewBag.Produto = produto;
+                return View("Form");
+            }
+            
         }
     }
 }
