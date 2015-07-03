@@ -63,4 +63,3 @@ C:\Users\Elessandra\git\web\ControleDeEstoque\CaelumEstoque\obj\Debug\CaelumEsto
 C:\Users\Elessandra\git\web\ControleDeEstoque\CaelumEstoque\obj\Debug\CaelumEstoque.pdb
 C:\Users\Elessandra\git\web\ControleDeEstoque\CaelumEstoque\bin\System.Web.Mvc.dll
 C:\Users\Elessandra\git\web\ControleDeEstoque\CaelumEstoque\bin\System.Web.Mvc.xml
-C:\Users\Elessandra\git\web\ControleDeEstoque\CaelumEstoque\obj\Debug\CaelumEstoque.csprojResolveAssemblyReference.cache

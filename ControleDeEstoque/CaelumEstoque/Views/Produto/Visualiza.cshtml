@@ -1,18 +1,4 @@
-﻿
-@{
-    Layout = null;
-}
-
-<!DOCTYPE html>
-
-<html>
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <title>Visualiza</title>
-</head>
-<body>
-    <div> 
-        Id: @ViewBag.Produto.Id; <br />
+﻿        Id: @ViewBag.Produto.Id; <br />
         Nome: @ViewBag.Produto.Nome; <br />
         Preço: @ViewBag.Produto.Preco; <br />
         Categoria: @ViewBag.Produto.Categoria.Nome; <br />
@@ -20,6 +6,5 @@
         Quantidade: @ViewBag.Produto.Quantidade;<br />
 
         @Html.RouteLink("Voltar", "ListaProdutos")
-    </div>
-</body>
-</html>
+
+
