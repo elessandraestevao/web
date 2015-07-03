@@ -48,7 +48,6 @@ C:\Users\Elessandra\git\web\ControleDeEstoque\CaelumEstoque\bin\CaelumEstoque.pd
 C:\Users\Elessandra\git\web\ControleDeEstoque\CaelumEstoque\bin\EntityFramework.dll
 C:\Users\Elessandra\git\web\ControleDeEstoque\CaelumEstoque\bin\EntityFramework.SqlServer.dll
 C:\Users\Elessandra\git\web\ControleDeEstoque\CaelumEstoque\bin\System.Web.Helpers.dll
-C:\Users\Elessandra\git\web\ControleDeEstoque\CaelumEstoque\bin\System.Web.Mvc.dll
 C:\Users\Elessandra\git\web\ControleDeEstoque\CaelumEstoque\bin\System.Web.Razor.dll
 C:\Users\Elessandra\git\web\ControleDeEstoque\CaelumEstoque\bin\System.Web.Webpages.Deployment.dll
 C:\Users\Elessandra\git\web\ControleDeEstoque\CaelumEstoque\bin\System.Web.Webpages.dll
@@ -60,7 +59,7 @@ C:\Users\Elessandra\git\web\ControleDeEstoque\CaelumEstoque\bin\System.Web.Webpa
 C:\Users\Elessandra\git\web\ControleDeEstoque\CaelumEstoque\bin\System.Web.Webpages.Deployment.xml
 C:\Users\Elessandra\git\web\ControleDeEstoque\CaelumEstoque\bin\System.Web.Webpages.Razor.xml
 C:\Users\Elessandra\git\web\ControleDeEstoque\CaelumEstoque\bin\System.Web.Helpers.xml
-C:\Users\Elessandra\git\web\ControleDeEstoque\CaelumEstoque\bin\System.Web.Mvc.xml
-C:\Users\Elessandra\git\web\ControleDeEstoque\CaelumEstoque\obj\Debug\CaelumEstoque.csprojResolveAssemblyReference.cache
 C:\Users\Elessandra\git\web\ControleDeEstoque\CaelumEstoque\obj\Debug\CaelumEstoque.dll
 C:\Users\Elessandra\git\web\ControleDeEstoque\CaelumEstoque\obj\Debug\CaelumEstoque.pdb
+C:\Users\Elessandra\git\web\ControleDeEstoque\CaelumEstoque\bin\System.Web.Mvc.dll
+C:\Users\Elessandra\git\web\ControleDeEstoque\CaelumEstoque\bin\System.Web.Mvc.xml
