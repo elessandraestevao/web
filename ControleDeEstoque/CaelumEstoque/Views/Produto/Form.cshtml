@@ -1,4 +1,5 @@
 ﻿<form action="/Produto/Adiciona" method="post">
+    @Html.AntiForgeryToken()
     @Html.ValidationMessage("produto.PrecoMenorQueCem")
     <label for="nome">Nome:</label>
     <input id="nome" name="produto.Nome" value="@ViewBag.Produto.Nome" class="form-control" /><br /><br />
