@@ -11,10 +11,8 @@ namespace LojaRazor.Controllers
     {
 
         public ActionResult Index()
-        {
-            DepartamentosDAO departamentosDAO = new DepartamentosDAO();
-            ProdutosDAO produtosDAO = new ProdutosDAO();
-            ViewBag.Departamentos = departamentosDAO.Lista();
+        {            
+            ProdutosDAO produtosDAO = new ProdutosDAO();            
             ViewBag.Produtos = produtosDAO.Ofertas();
             return View();
         }
