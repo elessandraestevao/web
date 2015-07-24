@@ -5,32 +5,7 @@
     <link href="~/Content/Style.css" rel="stylesheet" />
 </head>
 <body>
-    <div class="navbar navbar-fixed-top">
-        <div class="navbar-inner">
-            <div class="container-fluid">
-                @Html.ActionLink("LojaRazor", "Index", "Home", new { @class = "brand" })
-                <ul class="nav">
-                    <li>@Html.ActionLink("Sobre", "About", "Home")</li>
-                    <li>@Html.ActionLink("Contato", "Contato", "Home")</li>
-                </ul>
-            </div>
-        </div>
-        <p class="navbar-text pull-right">
-            @if (@Session["usuarioLogado"] != null)
-            {
-                @:Bem-vindo
-                @Session["usuarioLogado"]
-                @Html.ActionLink("Logout", "Logout", "Autenticacao")
-            }
-            else
-            {
-                @:Olá visitante
-                @Html.ActionLink("Login", "Index", "Autenticacao")
-                @:ou
-                @Html.ActionLink("Cadastre-se", "Form", "Usuarios")
-            }
-        </p>
-    </div>
+    @Html.Partial("_MenuSuperior")
     <div class="container-fluid">
         <div class="row-fluid">
             <div class="span3">
@@ -41,5 +16,6 @@
             </div>
         </div>        
     </div>
+    @RenderSection("Scripts", false)
 </body>
 </html>
