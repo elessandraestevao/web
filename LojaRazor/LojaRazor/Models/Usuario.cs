@@ -20,6 +20,8 @@ namespace LojaRazor.Models
         [Required]
         public DateTime DataDeNascimento { get; set; }
 
+        public Sexo Sexo { get; set;}
+
         [Required]
         public String Endereco { get; set; }
 
@@ -27,6 +29,8 @@ namespace LojaRazor.Models
 
         [Required, RegularExpression("\\d{5}-\\d{3}")]
         public String CEP { get; set; }
+
+        public Estado Estado { get; set; }
 
         public string Observacoes { get; set; }
 

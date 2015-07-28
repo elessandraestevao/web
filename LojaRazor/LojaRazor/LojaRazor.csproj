@@ -134,7 +134,9 @@
     </Compile>
     <Compile Include="Models\Categoria.cs" />
     <Compile Include="Models\Departamento.cs" />
+    <Compile Include="Models\Estado.cs" />
     <Compile Include="Models\Produto.cs" />
+    <Compile Include="Models\Sexo.cs" />
     <Compile Include="Models\Usuario.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -237,7 +239,6 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Menu\Index.cshtml" />
     <Content Include="Views\Shared\_MenuSuperior.cshtml" />
-    <Content Include="Views\Shared\_Validacao.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
