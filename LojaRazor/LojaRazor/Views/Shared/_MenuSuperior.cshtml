@@ -1,27 +1,30 @@
-﻿<div class="navbar navbar-fixed-top">
+﻿@using LojaRazor.Internacionalizacao
+<div class="navbar navbar-fixed-top">
     <div class="navbar-inner">
         <div class="container-fluid">
             @Html.ActionLink("LojaRazor", "Index", "Home", new { @class = "brand" })
+
             <ul class="nav">
-                <li>@Html.ActionLink("Sobre", "About", "Home")</li>
-                <li>@Html.ActionLink("Contato", "Contato", "Home")</li>
+                <li>@Html.ActionLink(Mensagens.Sobre, "About", "Home")</li>
+                <li>@Html.ActionLink(Mensagens.Contato, "Contato", "Home")</li>
             </ul>
+
+            <p class="navbar-text pull-right">
+                @if (@Session["usuarioLogado"] != null)
+                {
+                    @Mensagens.BemVindo
+                    @Session["usuarioLogado"]
+                    @Html.ActionLink(Mensagens.Logout, "Logout", "Autenticacao")
+                }
+                else
+                {
+                    @Mensagens.OlaVisitante
+                    @Html.ActionLink(Mensagens.Login, "Index", "Autenticacao")
+                    @Mensagens.Ou
+                    @Html.ActionLink(Mensagens.CadastreSe, "Form", "Usuarios")
+                }
+            </p>
         </div>
     </div>
-    <p class="navbar-text pull-right">
-        @if (@Session["usuarioLogado"] != null)
-        {
-            @:Bem-vindo
-            @Session["usuarioLogado"]
-            @Html.ActionLink("Logout", "Logout", "Autenticacao")
-        }
-        else
-        {
-            @:Olá visitante
-            @Html.ActionLink("Login", "Index", "Autenticacao")
-            @:ou
-            @Html.ActionLink("Cadastre-se", "Form", "Usuarios")
-        }
-    </p>
 </div>
 

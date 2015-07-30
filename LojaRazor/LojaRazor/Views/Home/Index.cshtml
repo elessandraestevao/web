@@ -1,6 +1,7 @@
-﻿     <div class="hero-unit">
-        <h1>Queima de estoque</h1> 
-        <p>Produtos com 20% de desconto!</p>
+﻿@using LojaRazor.Internacionalizacao     
+    <div class="hero-unit">
+        <h1>@Mensagens.QueimaDeEstoque</h1> 
+        <p>@Mensagens.Produtos20PorCentoDesconto</p>
      </div>
      <div class="row-fluid">
         @foreach (var produto in ViewBag.Produtos)

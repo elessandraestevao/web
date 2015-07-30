@@ -53,3 +53,8 @@ C:\Users\Elessandra\git\web\LojaRazor\LojaRazor\bin\System.Web.WebPages.Razor.xm
 C:\Users\Elessandra\git\web\LojaRazor\LojaRazor\obj\Debug\LojaRazor.csprojResolveAssemblyReference.cache
 C:\Users\Elessandra\git\web\LojaRazor\LojaRazor\obj\Debug\LojaRazor.dll
 C:\Users\Elessandra\git\web\LojaRazor\LojaRazor\obj\Debug\LojaRazor.pdb
+C:\Users\Elessandra\git\web\LojaRazor\LojaRazor\obj\Debug\LojaRazor.Internacionalizacao.Mensagens.resources
+C:\Users\Elessandra\git\web\LojaRazor\LojaRazor\obj\Debug\LojaRazor.csproj.GenerateResource.Cache
+C:\Users\Elessandra\git\web\LojaRazor\LojaRazor\bin\en-us\LojaRazor.resources.dll
+C:\Users\Elessandra\git\web\LojaRazor\LojaRazor\obj\Debug\LojaRazor.Internacionalizacao.Mensagens.en-us.resources
+C:\Users\Elessandra\git\web\LojaRazor\LojaRazor\obj\Debug\en-us\LojaRazor.resources.dll
